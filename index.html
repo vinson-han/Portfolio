@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <nav class="menu">
+        <li class="github"><a href="https://github.com/vinson-han"><img src="./icon/github.svg" alt="github icon"></a></li>
+        <li class="linkden"><a href="https://www.linkedin.com/in/vinson-han/"><img src="./icon/linkeden.svg" alt="linkden icon"></a></li>
+        <li ><a href="#myWork">My Work</a></li>
+        <li><a href="#footer">Contact Me</li>
+        <li class="My Work"><a href="#">Resume</a></li>
+        <li class="Contact"><a href="mailto:Vinson.han21@gmail.com">Vinson.han21@gmail.com</a></li>   
+    </nav>
+    <main>
+        <section id="landing" class="container">
+            <div id="intro"><h1 > Hi 🙌, my name is Vinson.</h1></div>
+            <div id="bio"><h2> I'm a <span id="roles">fullstack web developer<span></span></h1></div>
+            <div id ="scroll"><a href="#myWork"><span></span></a></div>
+            <div id ="link"><a href="#myWork"><span>Check Out My Work</span></a></div>
+        </section>
+        <section id="myWork" class="container">
+            <span> This is where my the cards will go</span>
+            <div id ="link"><a href="#footer"><span>Contact Me</span></a></div>
+        </section>
+        <section id="contact" class="container">
+            <form id="contact" action="https://formspree.io/f/mzbyrdkg" method="post">
+                      <h3>Lets Get in Touch</h3>
+                
+                         <label for="full-name"></label>
+                        <input placeholder="Your name" name="name" id="full-name" type="text" tabindex="1" required >
+                        <label for="email-address"></label>
+                        <input id="email-address" placeholder="email@domain.tld" name="_replyto" type="email" tabindex="2" required>
+                        <label for="message"></label>
+                        <textarea id="message" name="message" placeholder="Type your message here...." tabindex="5" required></textarea>
+                        <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
+                        <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+            </form>
+        </section>
+        
+       
+       
+    </main>
+    <footer id="footer" class="menu">
+        <li class="github"><a href="https://github.com/vinson-han"><img src="./icon/github.svg" alt="github icon"></a></li>
+        <li class="linkden"><a href="https://www.linkedin.com/in/vinson-han/"><img src="./icon/linkeden.svg" alt="linkden icon"></a></li>
+        <li class="Resume"><a href="#myWork">My Work</a></li>
+        <li class="My Work"><a href="#">Resume</a></li>
+        <li class="Contact"><a href="mailto:Vinson.han21@gmail.com">Vinson.han21@gmail.com</a></li>   
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
