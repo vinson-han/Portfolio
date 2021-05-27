@@ -6,18 +6,19 @@
 }
 html,body{
     height: 100%;
+   
     font-family: -apple-system, BlinkMacSystemFont, sans-serif;
 
 }
 
 nav{
     padding-top: 10px;
-    border: 2px red solid;
+    background: white;
     list-style-type: none;
     display: flex;
     justify-content: center;
     line-height: 2;
-    font-size: 14px;
+    font-size: 16px;
    
 }
 .menu > li{   
@@ -33,7 +34,13 @@ nav{
     text-align: center;
 }
 #landing{
-    background: hsla(203, 20%, 40%, 0.664);
+    color: black;
+    background-image: url("./img/background.jpg");
+    background-repeat:no-repeat;
+    background-position: 50% 75% ; 
+    background-size: cover;
+  
+  
 }
 #scroll{
     
@@ -59,23 +66,23 @@ nav{
     text-decoration: none;
 }
 #link a:hover{
-    color: rgba(19, 18, 18, 0.884);
+    color: rgba(27, 27, 27, 0.705);
 }
 
 #myWork{
-    background: red;
+    background:lightblue;
 }
 
 
 #footer{
     padding: 10px 20px;
-    background: cadetblue;
+    background: lightblue;
   
     list-style-type: none;
     display: flex;
     justify-content: center;
     line-height: 2;
-    font-size: 14px;
+    font-size: 16px;
   
     
 }
@@ -134,9 +141,8 @@ li a:hover{
   #contact {
 
     padding: 25px;
-    
     font-size: 34px;
-    
+    background: hsl(0, 100%, 99%);
     justify-content: center;
     align-items: center;
   }
@@ -164,7 +170,7 @@ li a:hover{
     width: 100%;
     border: none;
     background: lightblue;
-    color: rgb(43, 43, 43);
+    color: rgb(20, 20, 20);
     margin: 0 0 5px;
     padding: 10px;
     font-size: 15px;
