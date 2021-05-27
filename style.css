@@ -6,16 +6,19 @@
 }
 html,body{
     height: 100%;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+
 }
 
 nav{
+    padding-top: 10px;
     border: 2px red solid;
     list-style-type: none;
     display: flex;
     justify-content: center;
     line-height: 2;
     font-size: 14px;
-    
+   
 }
 .menu > li{   
     padding: 6px 30px;
@@ -39,6 +42,7 @@ nav{
 }
 
 #intro{
+    margin-top: 10rem;
     font-size: 55px;
 }
 #bio{
@@ -46,7 +50,7 @@ nav{
 }
 
 #link {
-    font-size: 34px;
+    font-size: 21px;
     margin-top: 5rem;
    
 }
@@ -66,7 +70,7 @@ nav{
 #footer{
     padding: 10px 20px;
     background: cadetblue;
-    min-height: vh;
+  
     list-style-type: none;
     display: flex;
     justify-content: center;
@@ -160,7 +164,7 @@ li a:hover{
     width: 100%;
     border: none;
     background: lightblue;
-    color: #FFF;
+    color: rgb(43, 43, 43);
     margin: 0 0 5px;
     padding: 10px;
     font-size: 15px;
